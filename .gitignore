@@ -1,28 +1,28 @@
-# OS / Editor
-.DS_Store
-Thumbs.db
-.idea/
-.vscode/
-
-# Claude / local tooling
-.claude/
-.codex/
-
-# Documentation
-*.md
-!README.md
-
-# Build output and temp files
-dist/
-页面样式图片概览/
-*.log
-*.tmp
-*.temp
-*.mp4
-
-
-# Design / source project files that should not be published
-assets/images/ui/logo/rhinelablogo/
-
-# Optional dependency folders
 node_modules/
+backups/
+dist/
+.tools/
+*.mp4
+*.blend1
+optix7cache.db
+reference/*.jpg
+reference/**/*.jpg
+art/.cache/
+.worktrees/
+release/
+video/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+
+reference/local-files-connection.js
+
+# Local integration checkout
+.main-integration/
+
+# Individually licensed MyFonts kit; install locally, never publish to Git.
+public/fonts/novecento/
+.vercel/
+.wrangler/
